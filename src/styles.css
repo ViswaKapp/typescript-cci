@@ -1,0 +1,60 @@
+/* Add application styles & imports to this file! 
+
+Following styles are copied form
+https://www.w3schools.com/css/tryit.asp?filename=trycss_table_fancy
+*/
+
+h2 {
+  text-align: center;
+}
+
+th {
+
+  background-color: #4CAF50;
+  color: white;
+}
+
+#vehicles {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#vehicles td, #vehicles th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#vehicles tr:nth-child(even){background-color: #f2f2f2;}
+
+#vehicles tr:hover {background-color: #ddd;}
+
+#vehicles th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
+
+#pagination {
+  margin-left:auto; 
+  margin-right:0;
+}
+
+#pagination button{
+  width:33.3%;
+}
+#pagination h4{
+  width:33.3%;
+}
+
+#searchdiv {
+  text-align:center;
+}
+
+#searchdiv input {
+  font-size: 18px;
+}

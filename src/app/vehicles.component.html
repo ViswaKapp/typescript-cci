@@ -1,0 +1,40 @@
+<div>
+
+<!-- Search vehicles not implemented -->
+<div id="searchdiv" >
+
+ <input type="text" placeholder="Search Vehicles..">
+
+</div>
+
+<!-- Vehicles list -->
+  <table id="vehicles">
+    <tr>      
+        <th>Name</th>
+        <th>Cost in credits </th>
+        <th>Length</th>
+    </tr>
+
+    <tr *ngFor="let vehicle of vehicles">
+     
+      <td >     
+        {{vehicle.name}}
+      </td>
+        <td>
+        {{vehicle.credits}}
+      </td>
+        <td>
+        {{vehicle.length}}
+      </td>
+    
+    </tr>
+  </table>
+</div>
+
+<!-- Un implemented Pgination -->
+<div id="pagination" class="btn-group" style="width:30%" >
+  <button onclick="getPrevVehicles()"><h4> < </h4></button>
+  
+  <button><h4> {{page}} </h4> </button>
+  <button onclick="getNextVehicles()"><h4> > </h4></button>
+</div>
